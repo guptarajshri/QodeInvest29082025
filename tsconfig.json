@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "useDefineForClassFields": true,
+    //   "types": ["vite", "@vitejs/plugin-react"]
+      "lib": ["ES2020", "DOM", "DOM.Iterable"],
+      "module": "ESNext",
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "strict": true,
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "types": ["vite"],
+      "esModuleInterop": true,
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["src"]
+  }
+  
